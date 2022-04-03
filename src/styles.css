@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+.MuiIconButton-root{
+    border-radius:4px!important;
+    outline: none;
+    border: 0;
+}
+.MuiIconButton-root:active{
+    outline: none;
+    border: 0;
+}
+.MuiIconButton-root .MuiTypography-body1{
+    padding-left: 5px!important;
+}
+.headers{
+    background-color: #efefef!important;
+    box-shadow: none!important;
+}
+.makeStyles-title-3{
+    font-weight: 700!important;
+    font-family:  'Caveat', cursive!important;
+    font-size: 3rem!important;
+}
+/**
+ * border radius
+ */
+
+.btn,
+.jumbotron,
+.nav :hover {
+  border-radius: 0px;
+}
+
+/* cart badge */
+
+.cart-badge,
+.cart-badge:hover {
+  border-radius: 50%;
+  padding: 2px;
+  font-size: 12px;
+  font-style: italic;
+  background: #000;
+}
+/**
+  * single product page - product name
+  */
+
+.name {
+  background: indigo;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* black shade form 10-1 */
+.black-10 {
+  background: #f2f2f2;
+}
+.black-9 {
+  background: #e6e6e6;
+}
+.black-8 {
+  background: #d9d9d9;
+}
+.black-7 {
+  background: #cccccc;
+}
+.black-6 {
+  background: #bfbfbf;
+}
+.black-5 {
+  background: #b3b3b3;
+}
+
+/**
+  * product image on card
+  */
+
+.product-img {
+  min-height: 100px;
+}
+
+.jumbotron h1 {
+  margin-top: -20px;
+  font-size: 4rem;
+
+}
+
+@media only screen and (max-width: 600px) {
+  .jumbotron h1 {
+    margin-top: 10px;
+    font-size: 2rem;
+  }
+}
+
+/**
+  * jumbotron animation
+  */
+
+.jumbotron {
+  height: 300px;
+  color: #fff;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.container-fluid,.head{
+  padding-top: 100px!important;
+}
+.spanBtn{
+  display: flex;
+  justify-content: space-between;
+}
+.moment{
+  margin-top: 10px;
+  float: right;
+  position: relative;
+}
+.black-101{
+  margin-right: 10px;
+  font-size: 18px;
+}
+.black-91{
+  margin-left: 10px;
+  font-size: 16px;
+}
+.moment::before{
+  position: absolute;
+  content: '';
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: green;
+  left: -17px;
+  top: 3px;
+}
+.Navli:hover{
+  color: #4f91db!important;
+}
+.MuiSvgIcon-root{
+  font-size: 2rem!important;
+}
+.Navli{
+  color: #555!important;
+  font-weight: 400!important;
+}
+.makeStyles-menuButton-2{
+  font-size: 5rem!important;
+}
+.searchBtn{
+  background-color: #4f91db!important;
+  color: #fff!important;
+}
+.serachBox{
+  justify-content: center!important;
+}
+.headers.active{
+  box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%)!important;
+}
+.mark,.headerOrder{
+  padding: 10px;
+  border-radius: 4px;
+}
+.userListDelete{
+  color: red;
+  margin:0 10px;
+}
+.userListUpdate{
+  color: green;
+  margin:0 10px;
+}
+
+.btns{
+  color: #4f91db!important;
+  border-color: #4f91db!important;
+}
+.view{
+  background-color: #4f91db!important;
+  color: #fff!important;
+}
+.names{
+  color: inherit!important;
+  font-weight: 700;
+}
+.remain{
+  margin: 20px 0;
+  font-size: 1rem;
+}
+.remain span{
+  color: #23a6d5;
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.cardBox{
+    width: 300px;
+    background-color: #efefef;
+    border-radius: 10px;
+    padding: 20px;
+}
